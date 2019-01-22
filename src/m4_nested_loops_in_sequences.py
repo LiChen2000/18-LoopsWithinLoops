@@ -283,7 +283,7 @@ def print_characters_slanted(sequence_of_strings):
     Precondition:  the given argument is a sequence of strings.
     """
     # ------------------------------------------------------------------
-    # DONE: 6. Implement and test this function.
+    # DONe: 6. Implement and test this function.
     #  ** READ THE TESTS that have been written for you (ABOVE).
     #  ** ASK QUESTIONS if you do not understand the TESTS (ABOVE).
     #
