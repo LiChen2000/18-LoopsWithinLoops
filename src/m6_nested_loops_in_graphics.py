@@ -178,14 +178,14 @@ def draw_wall_on_right(rectangle, n, window):
     lefttopx = x - width/2
     lefttopy = y - height/2
     rightbottomx = center.x + width/2
-    leftbottomy = center.y + height/2
+    rightbottomy = center.y + height/2
     for k in range(n):
         for i in range(k+1):
-            rectangle1 = rg.Rectangle(rg.Point(lefttopx, lefttopy), rg.Point(rightbottomx, leftbottomy))
+            rectangle1 = rg.Rectangle(rg.Point(lefttopx, lefttopy), rg.Point(rightbottomx, rightbottomy))
             rectangle1.attach_to(window)
             window.render()
 
-            x = x + width
+            x = x - width
         y = y + height
         x = inix
 
