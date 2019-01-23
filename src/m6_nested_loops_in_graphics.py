@@ -185,9 +185,13 @@ def draw_wall_on_right(rectangle, n, window):
             rectangle1.attach_to(window)
             window.render()
 
-            x = x - width
-        y = y + height
-        x = inix
+            lefttopx = lefttopx - width
+            rightbottomx = rightbottomx - width
+        lefttopy = lefttopy + height
+        rightbottomy = rightbottomy + height
+        lefttopx = inix - width/2
+        rightbottomx = inix + width/2
+
 
 
 # ----------------------------------------------------------------------
